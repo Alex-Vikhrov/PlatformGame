@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="game.js" defer></script>
+    <title>Game Platform</title>
+</head>
+
+<body>
+
+    <label for="login">Enter you name:</label>
+    <input class="form" type="text" name="login" id="login" maxlength="15" placeholder="Name" required>
+    <button class="btn" type="submit">login</button>
+    <div class="text_counter">Отсалось <span>`${value}`</span> символов</div>
+    <canvas id="map" width="800px" height="600px"></canvas>
+    <button type="button" class="button_start active">Start</button>
+    <button type="button" class="button_stop active">Stop</button>
+</body>
+
+</html>
