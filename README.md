@@ -1,1 +1,1 @@
-# PlatformGame - https://alex-vikhrov.github.io/PlatformGame/index.html
+# PlatformGame - https://alex-vikhrov.github.io/Platform_Game/index.html
